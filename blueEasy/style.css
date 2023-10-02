@@ -1,0 +1,335 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.texte{
+    color: white;
+    font-family: "Roboto Light",sans-serif;}
+
+.textegris{
+    font-family: "Roboto Light",sans-serif;
+    font-weight: bolder;
+    color: #939596;
+    border-inline: black;
+}
+.option{
+    margin: 8px;
+    font-weight: bolder;
+    text-decoration: None;
+    font-size: 1.2em;
+}
+.cal{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.espace{
+    margin-right: 90px;
+}
+.bordure{
+    padding: 8px;
+    padding-right: 20px;
+    padding-left: 20px ;
+    border: #4BCAFF 4px solid;
+}
+.separation{
+    border-right: #939596   3px solid;
+    padding-right: 23px;
+}
+.visitMe{
+    font-weight: bolder;
+    text-decoration: None;
+    font-size: 1.2em;
+    padding-top: 12px ;
+    padding-right: 48px;
+    padding-bottom: 12px;
+    padding-left: 48px;
+    border: #353F46 4px solid;
+    color: #353F46;
+    font-family: "Roboto Light",sans-serif;
+}
+.maj{
+    text-transform: uppercase;
+
+}
+.phrase{
+    background-color: rgba(0, 0, 0, 0.32);
+    font-size: 45px;
+    margin: 10px;
+
+}
+.sousligne{border-bottom: white 3px solid;
+    padding-bottom: 3px;}
+
+p{
+    font-size: 20px;
+    text-align: justify;
+}
+.bleu{
+    color: #4BCAFF;
+    font-weight: bolder;
+    font-family: "Roboto Light",sans-serif;
+}
+
+
+.titre{
+    font-size: 2em;
+}
+.textenoir{
+    color: black;
+    font-family: "Roboto Light",sans-serif;}
+.sousligneNoir{
+    border-bottom: black 3px solid;
+    padding-bottom: 3px;
+}
+.imgPhoto{
+    height: 26.2vh;
+    width: 18.5vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 16px;
+    margin-top:17px;
+}
+.un{
+    background-image: url("images/portfolio/1.png");
+}
+.deux{
+    background-image: url("images/portfolio/2.png");
+}
+.trois{
+    background-image: url("images/portfolio/3.png");
+}
+.quatre{
+    background-image: url("images/portfolio/4.png");
+}
+.cinq{
+    background-image: url("images/portfolio/5.png");
+}
+.six{
+    background-image: url("images/portfolio/6.png");
+}
+.sept{
+    background-image: url("images/portfolio/7.png");
+}
+.huit{
+    background-image: url("images/portfolio/8.png");
+}
+
+.vidéo{
+    background-image: url("https://www.youtube.com/watch?v=ZPCfoCVCx3U");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/*####################################################*/
+.accueil{
+    background-image: url(images/HERO.jpg) ;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(70%);
+
+
+
+}
+.navigbar{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 14%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 9%;
+    padding-right: 9%;
+
+}
+
+.punchline{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;}
+
+.secondePartie{
+    background-color: #4BCAFF;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 9%;
+    padding-right: 9%;
+
+    width: 84vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.argumentation{
+    margin-top: 12vh;
+
+    display: flex;
+    justify-content: space-between;
+
+
+
+
+}
+.argument{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 22%;
+    height: 50%;
+
+}
+.iconebleu{
+    width: fit-content;
+
+    margin : 4px }
+
+
+.thirdPhotos{
+
+    background-color: #ffffff;
+    width: 84vw;
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-bottom: 5%;
+    padding-top: 5%;}
+.navigbar2{
+
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.photo{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gris{
+    background-color: #515F67;
+    padding-bottom: 5%;
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-top: 6%;
+    width: 84vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.description{
+    margin-top: 8%;
+    width: 37vw;
+    margin-bottom: 8%;
+}
+.droite{
+    background-image: url("images/social/img.png");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 62vh;
+    width: 39vw;
+
+
+}
+
+.cinqpartie{
+    background-color: #4BCAFF;
+    width: 84vw;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+.twitter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.sixPartie{
+    background-color:#8CB3D7;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 9%;
+    padding-right: 9%;
+    width: 84vw;}
+.pomme{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.applepie{
+    width: 41vw;
+}
+
+.septPartie{
+    background-color: white;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+.test{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 10vh;
+}
+.huitPartie{
+    background-color: #8CB3D7;
+    width: 101vw;
+
+}
+.formulaire{
+    height: 84vh;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+.name{
+    border : #A7C0D9 2px solid;
+    border-radius: 4px;
+    background-color: #8CB3D7;
+    padding-bottom: 6px;
+    padding-top: 18px;
+    padding-left: 5px;
+    padding-right: 27vw ;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+input{background-color: #8baacc;
+    outline: none;
+}
+label{
+    font-weight: bolder;
+}
+.bouton{
+    font-weight: bolder;
+    font-size: 1.1em;
+    background-color: #0FCAEB;
+    border-radius: 4px;
+    border : none;
+    width: 20vw;
+    height: 9vh;
+}
+.bandeauDeFin{
+    background-color: rgba(0, 0, 0, 0.36);
+    width: 77vw;
+    padding-right: 15vw;
+    padding-left: 10vw;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
